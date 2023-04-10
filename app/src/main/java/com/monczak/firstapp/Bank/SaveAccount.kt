@@ -1,4 +1,4 @@
-package com.monczak.firstapp.aaa
+package com.monczak.firstapp.Bank
 
 class SaveAccount (
     private val interest: Double,

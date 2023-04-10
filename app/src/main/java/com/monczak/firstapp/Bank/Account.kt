@@ -1,4 +1,4 @@
-package com.monczak.firstapp.aaa
+package com.monczak.firstapp.Bank
 
 abstract class Account(
     protected var moneyStatus: Double = 0.0,

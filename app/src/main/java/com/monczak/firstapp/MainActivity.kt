@@ -15,9 +15,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.monczak.firstapp.aaa.Bank
-import com.monczak.firstapp.aaa.RorAccount
-import com.monczak.firstapp.aaa.SaveAccount
+import com.monczak.firstapp.Bank.Bank
+import com.monczak.firstapp.Bank.RorAccount
+import com.monczak.firstapp.Bank.SaveAccount
+import com.monczak.firstapp.Homework2.Homework2
 import com.monczak.firstapp.ui.theme.FirstAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -52,6 +53,7 @@ fun Screen() {
             AccountList(bank = bank)
             UpdateButton(bank = bank)
         }
+
     }
 }
 
