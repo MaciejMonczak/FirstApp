@@ -1,7 +1,7 @@
-package com.monczak.firstapp.Homework2
+package com.monczak.firstapp.homework2
 
 class Homework2 () {
-    val listOfLists = (1..3).map { i -> (1..4).map {i + 1}}
+    private val listOfLists = (1..3).map { i -> (1..4).map {i + 1}}
 
     fun getDefaultListOfLists() : List<List<Any>> = listOfLists
 
@@ -18,7 +18,7 @@ class Homework2 () {
     }
 
     fun palindrome(list: List<Any>) : Boolean{
-        // # What is the difference?
+        // # This is read-only and changes in the original list will also update reversed one
         // val reversedList: List<Any> = list.asReversed()
         val reversedList: List<Any> = list.reversed()
         return list == reversedList

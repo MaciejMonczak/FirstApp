@@ -1,4 +1,4 @@
-package com.monczak.firstapp.Bank
+package com.monczak.firstapp.bank
 
 class RorAccount (
     private val minMoneyStatus: Double,
